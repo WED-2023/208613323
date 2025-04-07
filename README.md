@@ -21,17 +21,6 @@ The website is designed for a senior (third-age) audience and includes:
 - 📬 **Contact Me** – A modern contact form built with HTML & CSS.
 
 ---
-
-## 🧰 Technologies Used
-
-- `HTML5`, `CSS3`
-- Flexbox + Grid layout
-- Embedded media (YouTube iframe)
-- Optional: Facebook SDK (like button)
-- Responsive design (mobile-friendly)
-
----
-
 ## 🚀 Live Website
 
 🔗 https://wed-2023.github.io/208613323/
