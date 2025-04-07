@@ -37,15 +37,12 @@
   <div class="photo-gallery">
     <figure>
       <img src="1.jpg" alt="Liam Neeson - Taken scene" />
-      <figcaption>Liam Neeson - Taken scene</figcaption>
     </figure>
     <figure>
       <img src="2.jpg" alt="Liam Neeson - red carpet" />
-      <figcaption>Liam Neeson - red carpet</figcaption>
     </figure>
     <figure>
       <img src="3.webp" alt="Liam Neeson - airplane scene" />
-      <figcaption>Liam Neeson - airplane scene</figcaption>
     </figure>
   </div>
 </section>
@@ -63,74 +60,92 @@
 </section>
 
 
-<section id="qrcoder" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-scan my code
-<br/>
-<br/>
-<br/>
+<section id="qrcode" class="section">
+  <h2>Scan me</h2>
+  <img src="./images/qrCode.png" />
 </section>
 
-<section id="spa" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
-<br/>
-<br/>
-<br/>
+<section id="qna" class="section">
+  <div class="section-divider"><span>Web 1 / Web 2 / Web 3</span></div>
+
+  <div class="qa-box">
+    <h3>1. שלושה הבדלים עיקריים בין Web1, Web2 ו-Web3:</h3>
+    <ul>
+      <li>
+        <strong>אופי האינטראקציה:</strong><br/>
+        - <strong>Web1:</strong> קריאה בלבד (Read). המשתמשים צרכו תוכן באופן פסיבי. מידע מוצג בצורה חד-כיוונית – מהאתר למשתמש בלבד. לא ניתן היה להגיב, לשתף או לתקשר.<br/>
+        - <strong>Web2:</strong> קריאה וכתיבה (Read/Write). שיתוף תוכן ע"י המשתמשים (User Generated Content).הופיעו בלוגים, רשתות חברתיות, יוטיוב – המשתמשים הפכו למרכז התוכן.<br/>
+        - <strong>Web3:</strong> קריאה, כתיבה ובעלות (Read/Write/Own). המשתמשים שותפים בפלטפורמות עצמן ומרוויחים מהן באמצעות טוקנים, NFT ובלוקצ'יין.
+      </li>
+
+      <li>
+        <strong>שליטה ופרטיות:</strong><br/>
+        - <strong>Web1:</strong> מעט אתרים, ללא איסוף מידע.<br/>
+        - <strong>Web2:</strong> שליטה מרכזית – חברות כמו Google, Facebook שולטות על המידע שלנו ומשתמשות בו לפרסום.<br/>
+        - <strong>Web3:</strong> ביזור. המשתמש שומר מידע בארנק דיגיטלי, מזהה את עצמו עם כתובת מבוזרת ולא עם פרופיל בפלטפורמה.
+      </li>
+
+      <li>
+        <strong>טכנולוגיה וביזור:</strong><br/>
+        - <strong>Web1:</strong> בלי JavaScript מתקדם, HTML סטטי. <br/>
+        - <strong>Web2:</strong> אפליקציות דינמיות, מסדי נתונים, AJAX, API.<br/>
+        - <strong>Web3:</strong> חוזים חכמים (Smart Contracts), בלוקצ'יין, IPFS, ארנקים דיגיטליים (MetaMask).
+      </li>
+    </ul>
+  </div>
+
+  <div class="qa-box">
+    <h3>2. דוגמה לתרחיש שימוש: "חיפוש תופעות לוואי של תרופות"</h3>
+    <ul>
+      <li>
+        <strong>Web1:</strong> המשתמש גולש לאתר רפואי סטטי (כמו אתר בריאות של בית חולים), קורא טקסט בלי יכולת לשאול שאלות או להגיב.
+      </li>
+      <li>
+        <strong>Web2:</strong> המשתמש מחפש בגוגל, קורא מאמרים, נכנס לפורום כמו "כמוני", שואל שאלה, מקבל תגובות ממשתמשים אמיתיים. התוכן דינמי ומשתנה כל הזמן.
+      </li>
+      <li>
+        <strong>Web3:</strong> המשתמש גולש ל־DApp רפואית מבוזרת, שבה מידע רפואי אמין מאוחסן בבלוקצ'יין. הוא יכול לשמור את המידע בארנק הדיגיטלי שלו, להוסיף תרומה לקהילה, ואפילו להצביע על אמינות המידע.
+      </li>
+    </ul>
+  </div>
 </section>
+
+
+
 
 <section id="contact" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
-<br/>
-<br/>
+  <div class="section-divider"><h2>Contact Me</h2></div>
+  <form class="contact-form cf" action="tamir7c@gmail.com" method="POST" enctype="multipart/form-data">
+    <div class="half left cf">
+      <input type="text" id="input-name" name="name" placeholder="Name" required>
+      <input type="email" id="input-email" name="email" placeholder="Email address" required>
+      <textarea name="message" id="input-message" placeholder="Message" required></textarea>
+
+      <!-- Emoji Rating Bar -->
+      <div class="emoji-rating">
+        <label>Rate your experience:</label>
+        <div>
+          <input type="radio" id="emoji1" name="rating" value="😊" required>
+          <label for="emoji1">😊</label>
+          
+          <input type="radio" id="emoji2" name="rating" value="😄">
+          <label for="emoji2">😄</label>
+          
+          <input type="radio" id="emoji3" name="rating" value="😐">
+          <label for="emoji3">😐</label>
+          
+          <input type="radio" id="emoji4" name="rating" value="😢">
+          <label for="emoji4">😢</label>
+          
+          <input type="radio" id="emoji5" name="rating" value="😡">
+          <label for="emoji5">😡</label>
+        </div>
+      </div>
+    </div>
+    <input type="submit" value="Submit" id="input-submit">
+  </form>
 </section>
+
 
 
 <script type="text/javascript">
