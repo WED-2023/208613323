@@ -15,8 +15,8 @@ body {
   
   #menu ul {
 	display: flex;
-	flex-direction: row-reverse; /* הסדר שאתה רוצה */
-	justify-content: center;     /* המרכזת את התוכן */
+	flex-direction: row-reverse; 
+	justify-content: center;     
 	align-items: center;
 	list-style: none;
 	gap: 20px;
@@ -27,7 +27,7 @@ body {
   #menu li::after {
 	content: " •";
 	margin: 0 5px;
-	color: black; /* או כל צבע שתרצה */
+	color: black; 
   }
   
 
@@ -75,7 +75,7 @@ body {
 	font-size: 24px;
 	color: #333;
   }
-  /* My Photos Grid Gallery - Clean Look */
+ 
 
 .photo-gallery {
 	display: grid;
@@ -184,7 +184,7 @@ body {
   }
   
   .contact-form .emoji-rating input:checked + label {
-	color: #ff4b4b; /* Change color when selected */
+	color: #ff4b4b; 
   }
   
   .contact-form #input-submit {
